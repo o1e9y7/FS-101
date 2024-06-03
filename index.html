@@ -8,14 +8,23 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="binance-block js-binance-info">
+      <img
+        class="coin-logo"
+        src="https://assets.coincap.io/assets/icons/btc@2x.png"
+      />
+      <p class="coin-title">SOLUSDT</p>
+      <p class="coin-price">48000</p>
+    </div>
     <input
       class="js-binance-form"
       type="text"
       name="query"
       placeholder="BTCUSDT"
     />
-    <button type="submit">Надіслати</button>
-    <div class="js-binance-info"></div>
+    <div class="js-binance-info">
+      <button class="js-binance-button" type="submit">Надіслати</button>
+    </div>
     <script type="module" src="./index.js"></script>
   </body>
 </html>
